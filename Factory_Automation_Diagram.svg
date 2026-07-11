@@ -1,0 +1,108 @@
+<svg viewBox="0 0 1240 720" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="hdr2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#9333ea"/>
+    </linearGradient>
+    <marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+    <style>
+      .stage2{fill:#ffffff;stroke:#cbd5e1;stroke-width:1.5;}
+      .node2{fill:#f1f5f9;stroke:#94a3b8;stroke-width:1.2;}
+      .metric{fill:#eff6ff;stroke:#3b82f6;stroke-width:1.4;}
+      .t2{fill:#0f172a;font-size:14.5px;font-weight:600;}
+      .s2{fill:#475569;font-size:12px;}
+      .lane2{fill:#3b82f6;font-size:12px;font-weight:700;letter-spacing:2px;}
+      .flow2{stroke:#64748b;stroke-width:2;fill:none;marker-end:url(#arr2);}
+      .m{fill:#1d4ed8;font-size:13px;font-weight:700;}
+    </style>
+  </defs>
+
+  <rect width="1240" height="720" fill="#f8fafc"/>
+  <rect x="0" y="0" width="1240" height="86" fill="url(#hdr2)"/>
+  <text x="40" y="38" fill="#ffffff" font-size="24" font-weight="800">Factory Automation Suite — Maintenance · Fallout · Yield</text>
+  <text x="40" y="64" fill="#dbeafe" font-size="14">Python + Power Automate production data systems &#160;&#160;|&#160;&#160; sanitized architecture view</text>
+
+  <!-- LANE 1: MAINTENANCE -->
+  <text x="40" y="130" class="lane2">MAINTENANCE MANAGEMENT</text>
+  <rect x="40" y="142" width="1160" height="150" class="stage2" rx="14"/>
+  <rect x="60" y="162" width="230" height="110" class="node2" rx="8"/>
+  <text x="72" y="186" class="t2">QR-launched request form</text>
+  <text x="72" y="206" class="s2">Any operator scans a QR code and</text>
+  <text x="72" y="221" class="s2">submits a Microsoft Form — replacing</text>
+  <text x="72" y="236" class="s2">unlogged verbal requests</text>
+  <rect x="330" y="162" width="230" height="110" class="node2" rx="8"/>
+  <text x="342" y="186" class="t2">Power Automate routing</text>
+  <text x="342" y="206" class="s2">Unique request ID assigned; alerts</text>
+  <text x="342" y="221" class="s2">sent to the right department and</text>
+  <text x="342" y="236" class="s2">maintenance team automatically</text>
+  <rect x="600" y="162" width="230" height="110" class="node2" rx="8"/>
+  <text x="612" y="186" class="t2">Live status ledger</text>
+  <text x="612" y="206" class="s2">Requests tracked through initiation →</text>
+  <text x="612" y="221" class="s2">in-progress → closed, with full</text>
+  <text x="612" y="236" class="s2">history retained for trend analysis</text>
+  <rect x="870" y="162" width="310" height="110" class="metric" rx="8"/>
+  <text x="884" y="186" class="t2">Outcome</text>
+  <text x="884" y="210" class="m">100% of requests digitized</text>
+  <text x="884" y="232" class="s2">Facility's first downtime and</text>
+  <text x="884" y="247" class="s2">response-time baselines established</text>
+  <line x1="290" y1="217" x2="330" y2="217" class="flow2"/>
+  <line x1="560" y1="217" x2="600" y2="217" class="flow2"/>
+  <line x1="830" y1="217" x2="870" y2="217" class="flow2"/>
+
+  <!-- LANE 2: FALLOUT -->
+  <text x="40" y="330" class="lane2">SMT COMPONENT FALLOUT TRACKING</text>
+  <rect x="40" y="342" width="1160" height="150" class="stage2" rx="14"/>
+  <rect x="60" y="362" width="230" height="110" class="node2" rx="8"/>
+  <text x="72" y="386" class="t2">Scheduled shift export</text>
+  <text x="72" y="406" class="s2">Python script runs at the end of</text>
+  <text x="72" y="421" class="s2">every shift and exports pick-and-</text>
+  <text x="72" y="436" class="s2">place fallout data automatically</text>
+  <rect x="330" y="362" width="230" height="110" class="node2" rx="8"/>
+  <text x="342" y="386" class="t2">Parse · clean · append</text>
+  <text x="342" y="406" class="s2">Automated pipeline validates and</text>
+  <text x="342" y="421" class="s2">formats the data into a central</text>
+  <text x="342" y="436" class="s2">workbook by line and shift</text>
+  <rect x="600" y="362" width="230" height="110" class="node2" rx="8"/>
+  <text x="612" y="386" class="t2">Trend &amp; exec reporting</text>
+  <text x="612" y="406" class="s2">Shift-level trends surfaced; weekly</text>
+  <text x="612" y="421" class="s2">executive report generated and</text>
+  <text x="612" y="436" class="s2">emailed without manual effort</text>
+  <rect x="870" y="362" width="310" height="110" class="metric" rx="8"/>
+  <text x="884" y="386" class="t2">Outcome</text>
+  <text x="884" y="410" class="m">Fallout: ~5% → &lt; 0.5%</text>
+  <text x="884" y="432" class="s2">Spikes on critical components caught</text>
+  <text x="884" y="447" class="s2">early; corrective actions data-driven</text>
+  <line x1="290" y1="417" x2="330" y2="417" class="flow2"/>
+  <line x1="560" y1="417" x2="600" y2="417" class="flow2"/>
+  <line x1="830" y1="417" x2="870" y2="417" class="flow2"/>
+
+  <!-- LANE 3: YIELD -->
+  <text x="40" y="530" class="lane2">HIGH-VOLUME YIELD &amp; REVENUE-IMPACT REPORTING</text>
+  <rect x="40" y="542" width="1160" height="150" class="stage2" rx="14"/>
+  <rect x="60" y="562" width="230" height="110" class="node2" rx="8"/>
+  <text x="72" y="586" class="t2">Structured floor capture</text>
+  <text x="72" y="606" class="s2">Operators log test results per batch,</text>
+  <text x="72" y="621" class="s2">line, and shift in Microsoft Forms</text>
+  <text x="72" y="636" class="s2">across SMT, die-cut, and final test</text>
+  <rect x="330" y="562" width="230" height="110" class="node2" rx="8"/>
+  <text x="342" y="586" class="t2">Weekly metric engine</text>
+  <text x="342" y="606" class="s2">Excel scripts compute per-part yield</text>
+  <text x="342" y="621" class="s2">and revenue impact, appended to</text>
+  <text x="342" y="636" class="s2">the appropriate reporting tabs</text>
+  <rect x="600" y="562" width="230" height="110" class="node2" rx="8"/>
+  <text x="612" y="586" class="t2">Performance reviews</text>
+  <text x="612" y="606" class="s2">Weekly report drives management</text>
+  <text x="612" y="621" class="s2">reviews and targets continuous-</text>
+  <text x="612" y="636" class="s2">improvement efforts by part</text>
+  <rect x="870" y="562" width="310" height="110" class="metric" rx="8"/>
+  <text x="884" y="586" class="t2">Outcome</text>
+  <text x="884" y="610" class="m">Yield loss: ~2% → ~0.5%</text>
+  <text x="884" y="632" class="s2">On high-volume programs — driven by</text>
+  <text x="884" y="647" class="s2">visibility this reporting created</text>
+  <line x1="290" y1="617" x2="330" y2="617" class="flow2"/>
+  <line x1="560" y1="617" x2="600" y2="617" class="flow2"/>
+  <line x1="830" y1="617" x2="870" y2="617" class="flow2"/>
+
+  <text x="40" y="712" fill="#94a3b8" font-size="11.5" font-style="italic">Sanitized recreation for portfolio use — internal data flows generalized; customer names and infrastructure specifics omitted. Designed and built solo, deployed facility-wide.</text>
+</svg>
